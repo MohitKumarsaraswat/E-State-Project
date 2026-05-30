@@ -1,27 +1,27 @@
 import React from "react";
 import { IoStarSharp } from "react-icons/io5";
+import car1 from "../Assets/car1.png";
+import car2 from "../Assets/car2.jpeg";
+import car3 from "../Assets/car3.jpeg";
 
 const arr = [
   {
     id: 1,
-    image:
-      "https://media.licdn.com/dms/image/v2/D5603AQFw_0B_XY6ZJw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1694585983456?e=1778716800&v=beta&t=alSPEPgbU6bUUWifFxix1R_BAZlJFxd3Kno1hycVOk4",
+    image: car1,
     Name: "Mohit Saraswat",
     Contant:
       "I had a wonderful experience using E-State for finding my new apartment. The platform offered many modern and affordable property options. The images, pricing, and property details were very accurate and helpful. Customer service made the entire process smooth and stress-free. E-State truly made home buying easy and reliable for me.",
   },
   {
     id: 2,
-    image:
-      "https://media.licdn.com/dms/image/v2/D4E03AQE8pCHs_g2oJg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726246711624?e=1778716800&v=beta&t=8hDjd_he6r_D7Uqq0cop43QQtsnRtizgJruuAsp909A",
+    image: car2,
     Name: "Mukul Sharma",
     Contant:
       "E-State made my home buying journey very easy. The platform had many verified premium properties. Customer support guided me throughout the process. I could compare prices and locations easily. I highly recommend E-State to every buyer.",
   },
   {
     id: 3,
-    image:
-      "https://media.licdn.com/dms/image/v2/D5603AQEqZ_ipCpV6yw/profile-displayphoto-scale_400_400/B56ZsnIj.XJoAk-/0/1765888116397?e=1778716800&v=beta&t=snfh2g84-wQQVigvqm5eXi67CUp8C0Nc893e_7PWvxE",
+    image: car3,
     Name: "Ajay Nayak",
     Contant:
       "E-State provided an excellent property search experience from start to finish. The website was simple to use and had detailed property listings. Their support team was very responsive and professional throughout. I was able to find a perfect home within my budget quickly. I would definitely recommend E-State to anyone looking for quality properties.",
