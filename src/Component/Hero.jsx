@@ -1,20 +1,17 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
+import home from "../assets/home.png";
 
 const Hero = () => {
   return (
     <section
       id="Home"
-      className="
-        min-h-screen
-        relative
-        overflow-hidden
-      "
+      className="relative min-h-screen overflow-hidden"
     >
       {/* Background Image */}
       <img
-        src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg"
+        src={home}
         alt="Hero Background"
         className="
           absolute
@@ -22,10 +19,19 @@ const Hero = () => {
           w-full
           h-full
           object-cover
-          -z-10
-          brightness-75
+          
         "
       />
+
+      {/* Dark Overlay */}
+      <div
+        className="
+          absolute
+          inset-0
+          bg-black/50
+          -z-10
+        "
+      ></div>
 
       {/* Navbar */}
       <Navbar />
@@ -39,13 +45,14 @@ const Hero = () => {
           min-h-screen
           flex
           flex-col
-          items-center
           justify-center
+          items-center
           text-center
           px-4
           sm:px-6
           md:px-10
           lg:px-20
+          pt-20
         "
       >
         <h1
@@ -77,7 +84,6 @@ const Hero = () => {
           tailored to your lifestyle and budget.
         </p>
 
-        {/* Buttons */}
         <div
           className="
             flex
